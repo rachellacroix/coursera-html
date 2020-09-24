@@ -1,8 +1,22 @@
 body {
-  background-color: lightblue;
+  background-color: white;
+/*  font-family: 'Comic Sans MS';*/
 }
 
-h1 {
-  color: navy;
+/*h1 {
+  color: black;
   margin-left: 20px;
+}*/
+
+h1 {
+	text-align: center;
+  color: black;
+/*  font-family: 'Comic Sans MS';*/
+  font-size: 150%;
+  padding: 15px;
+}
+
+
+p {
+	text-align: right;
 }
