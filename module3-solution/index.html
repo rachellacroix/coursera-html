@@ -1,40 +1,82 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/mystyle.css">
-  <title>Assignment Solution for Module 2</title>
-</head>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
 <body>
-  <h1>Our Menu</h1>
 
-  <div class="row">
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-    <div class="container col-lg-4 col-md-6 col-sm-12">
-      <section>
-        <div class="chicken">Chicken</div>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </section>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+<!--             <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li> -->
+            <li class="visible-xs">
+              <a href="#">
+                <img src="images/chicken.svg" alt="" width="38" height="38" fill="#483737" title="chicken"><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <img src="images/cow-head.svg" alt="" width="38" height="38" fill="#483737" title="beef"><br class="hidden-xs"> Beef</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <img src="images/sushi.svg" alt="" width="38" height="38" fill="#483737" title="sushi"><br class="hidden-xs"> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <!-- Beginning of #main-content -->
+  <div id="main-content" class="container">
+    <h1 class="text-center font-weight-bold">Our Menu</h1>
+    <!-- <div class="jumbotron"> -->
+    <div class="jumbotron col-md-12 col-sm-12 col-xs-12">
+      <h2 class="text-center font-weight-bold">Chicken</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque vel quam a laoreet. Vivamus nec condimentum justo. Proin in lectus euismod, sodales leo at, tempus metus. Aenean dictum feugiat nisi non iaculis. Fusce id ante lobortis, viverra risus non, tempor ex. Duis rhoncus, turpis eget maximus facilisis, purus arcu aliquet ex, quis congue tortor massa id dolor. Curabitur porta laoreet sem vitae facilisis. Proin turpis mi, tempor quis sapien eu, posuere cursus purus. Integer arcu quam, faucibus sit amet tellus condimentum, tincidunt consectetur augue.
+      Ut a ultricies elit. Ut blandit augue vitae urna viverra, in accumsan mauris ullamcorper. Nam eget vestibulum magna. Maecenas eget ante vel lectus malesuada vehicula. In nunc ipsum, molestie et vestibulum ac, tempus et enim. Vivamus sit amet ante semper dui imperdiet elementum. Vivamus non ornare justo. Nullam et est sit amet massa ultricies sagittis quis at lectus. Nullam volutpat mi non turpis tempor, ut egestas sapien dictum. Maecenas eu pellentesque lectus.
+      Suspendisse vulputate nisi et odio lacinia, a blandit magna iaculis. In justo lorem, imperdiet in finibus hendrerit, fringilla ac quam. Ut cursus nibh a tellus dapibus vulputate. Nullam auctor mollis ante, sed varius odio interdum fringilla. Aenean porttitor eleifend metus eu condimentum. Ut bibendum sapien eu nibh iaculis, ac gravida orci semper. Donec rutrum enim erat, aliquam lacinia nulla egestas quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Proin scelerisque, magna quis blandit consequat, ligula purus rutrum felis, nec tincidunt orci lectus et lacus. Nunc nibh magna, vehicula eu convallis a, pulvinar at nisi. Suspendisse fermentum lacus vel eros tincidunt, id fermentum est tincidunt. Etiam at leo non nunc tempor tempor vitae eget justo. Donec fermentum ligula non ante volutpat porta.
+      Nulla convallis iaculis fringilla. Cras bibendum orci ut purus bibendum vehicula. Cras venenatis lorem non erat tristique molestie. Sed lacinia venenatis congue. Nullam bibendum id nulla et fermentum. Mauris tempus urna sem, iaculis fringilla orci vehicula in. Suspendisse id pulvinar libero, at dictum nisl.
+      Proin venenatis, sem at sodales commodo, nisi sem molestie quam, a rhoncus risus elit at orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis et purus enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce tristique odio non ante finibus interdum. Sed nunc lacus, maximus in quam non, dapibus tincidunt libero. Vivamus auctor nec arcu rhoncus lacinia. Etiam semper hendrerit libero eu porttitor. Duis dui metus, eleifend et iaculis a, vestibulum non lacus. Maecenas vel lectus venenatis, porttitor dui id, egestas ligula. Duis eu bibendum tellus, vel suscipit tortor. Donec molestie sem libero, finibus aliquet mauris efficitur a. Proin et aliquet leo. Morbi placerat odio facilisis semper tincidunt.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque vel quam a laoreet. Vivamus nec condimentum justo. Proin in lectus euismod, sodales leo at, tempus metus. Aenean dictum feugiat nisi non iaculis. Fusce id ante lobortis, viverra risus non, tempor ex. Duis rhoncus, turpis eget maximus facilisis, purus arcu aliquet ex, quis congue tortor massa id dolor. Curabitur porta laoreet sem vitae facilisis. Proin turpis mi, tempor quis sapien eu, posuere cursus purus. Integer arcu quam, faucibus sit amet tellus condimentum, tincidunt consectetur augue.
+
+      Ut a ultricies elit. Ut blandit augue vitae urna viverra, in accumsan mauris ullamcorper. Nam eget vestibulum magna. Maecenas eget ante vel lectus malesuada vehicula. In nunc ipsum, molestie et vestibulum ac, tempus et enim. Vivamus sit amet ante semper dui imperdiet elementum. Vivamus non ornare justo. Nullam et est sit amet massa ultricies sagittis quis at lectus. Nullam volutpat mi non turpis tempor, ut egestas sapien dictum. Maecenas eu pellentesque lectus.
+      Suspendisse vulputate nisi et odio lacinia, a blandit magna iaculis. In justo lorem, imperdiet in finibus hendrerit, fringilla ac quam. Ut cursus nibh a tellus dapibus vulputate. Nullam auctor mollis ante, sed varius odio interdum fringilla. Aenean porttitor eleifend metus eu condimentum. Ut bibendum sapien eu nibh iaculis, ac gravida orci semper. Donec rutrum enim erat, aliquam lacinia nulla egestas quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Proin scelerisque, magna quis blandit consequat, ligula purus rutrum felis, nec tincidunt orci lectus et lacus. Nunc nibh magna, vehicula eu convallis a, pulvinar at nisi. Suspendisse fermentum lacus vel eros tincidunt, id fermentum est tincidunt. Etiam at leo non nunc tempor tempor vitae eget justo. Donec fermentum ligula non ante volutpat porta.
+      Nulla convallis iaculis fringilla. Cras bibendum orci ut purus bibendum vehicula. Cras venenatis lorem non erat tristique molestie. Sed lacinia venenatis congue. Nullam bibendum id nulla et fermentum. Mauris tempus urna sem, iaculis fringilla orci vehicula in. Suspendisse id pulvinar libero, at dictum nisl.
+      Proin venenatis, sem at sodales commodo, nisi sem molestie quam, a rhoncus risus elit at orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis et purus enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce tristique odio non ante finibus interdum. Sed nunc lacus, maximus in quam non, dapibus tincidunt libero. Vivamus auctor nec arcu rhoncus lacinia. Etiam semper hendrerit libero eu porttitor. Duis dui metus, eleifend et iaculis a, vestibulum non lacus. Maecenas vel lectus venenatis, porttitor dui id, egestas ligula. Duis eu bibendum tellus, vel suscipit tortor. Donec molestie sem libero, finibus aliquet mauris efficitur a. Proin et aliquet leo. Morbi placerat odio facilisis semper tincidunt.
     </div>
+  </div><!-- End of #main-content -->
 
-    <div class="container col-lg-4 col-md-6 col-sm-12">
-      <section>
-        <div class="beef">Beef</div>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </section>  
-    </div>
-
-    <div class="container col-lg-4 col-md-12 col-sm-12">
-      <section>
-        <div class="sushi">Sushi</div>
-        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </section>
-    </div>
-    
-  </div>
-
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
